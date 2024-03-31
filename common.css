@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    color: #000;
+
+}
+
+/* Centering the content */
+#Tab1 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+    /* Adjust as needed */
+}
+
+
+
+/* Adjustments for small screens */
+@media only screen and (max-width: 600px) {
+    #Tab1 {
+        max-width: 100%;
+        padding: 0 10px;
+        /* Add some padding for better readability */
+    }
+}
+
+/* Style for the links */
+.tabcontent a {
+    color: #007bff;
+    /* Blue color, you can change it as needed */
+    text-decoration: none;
+    font-size: 2.5em;
+    text-transform: uppercase;
+
+}
+
+.tabcontent a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+h3 {
+    font-size: 3em;
+}
+
+/* Style for the close button */
+.close-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 8px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin: 100px;
+}
